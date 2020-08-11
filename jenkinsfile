@@ -3,12 +3,12 @@ pipeline {
     stages {
           stage('one') {
                    steps { 
-                           echo 'Hi, this is masho from usku'
+                           echo 'Hi, this is masho from ubuntu'
                         }
              }
            stage('Two') {
                     steps {
-                            input ('Do you want to proceed')
+                            input ('Do you want to proceed?')
                           }
                }  
             stage('Three') {
