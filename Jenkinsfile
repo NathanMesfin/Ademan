@@ -1,10 +1,10 @@
 pipeline {
-    agent any 
+    agent any
     stages {
-          stage('one') {
-                   steps { 
-                           echo 'Hi, this is masho from craftsoft'
-                        }
-             }
-             }
-             }
+        stage('build') {
+            steps {
+                echo 'Hello'
+            }
+        }
+    }
+}
